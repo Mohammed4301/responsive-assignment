@@ -3,6 +3,9 @@
     padding: 0%;
     box-sizing: border-box;
 }
+.common-color{
+    color: #E95A08;
+}
 .common-flex{
     display: flex;
     align-items: center;
@@ -20,6 +23,12 @@ header{
     text-decoration: none;
     font-size: 1.5rem;
     color: #252432;
+    transition: .5s ease-in;
+}
+.navbar-links ul li a:hover,
+.navbar-links ul li a.active{
+    color: #000;
+    font-weight: bold;
 }
 .cartIconSite {
     margin-left: 60px;
@@ -27,11 +36,30 @@ header{
 .cartIconSite h5{
     margin-top: 6px;
     margin-left: 7px;
-    color: #8987A1;
+    color: #3f3f43;
 }
 .logo{
     width: 100px;
 }
 .carticon{
     width: 25px;
+}
+.banner{
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 40px;
+}
+.contentTitle{
+    width: 40%;
+}
+.mainTitle{
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+.imageSite{
+    width: 48%;
+}
+.imageSite img{
+    width: 100%;
 }
