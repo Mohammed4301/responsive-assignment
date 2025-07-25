@@ -399,11 +399,31 @@ footer {
 	width: 100%;
 	padding: 40px;
 }
+.plantSection {
+	width: 100%;
+}
+.storeSection {
+	width: 100%;
+}
 .contentTitle {
 	width: 48%;
 }
+.storeContent h1 {
+	margin-top: 5px;
+}
 .mainTitle {
 	font-size: 2.5rem;
+}
+.dealsSection {
+	width: 100%;
+}
+.containerBox {
+	height: 20vh;
+    width: 320px;
+}
+.containerBox1 {
+	height: 20vh;
+    width: 320px;
 }
 header {
 	padding: 30px;
@@ -411,5 +431,15 @@ header {
 .navbar-links ul {
 	list-style: none;
 	gap: 12px;
+}
+.big-container {
+	height: 40vh;
+}
+.colorFullSection {
+	height: 30vh;
+}
+footer {
+	width: 100%;
+    padding: 10px;
 }
 }
