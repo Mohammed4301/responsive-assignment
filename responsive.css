@@ -14,6 +14,11 @@ header{
     justify-content: space-between;
     padding: 30px 100px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, .21);
+    position: sticky;
+    top: 0%;
+    left: 0%;
+    z-index: 999;
+    background-color: rgb(255, 255, 255);
 }
 .navbar-links ul{
     list-style: none;
@@ -63,8 +68,49 @@ header{
 .imageSite img{
     width: 100%;
 }
-
-
+.plantSection{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}
+.plantSection h1{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+.plantBoxes{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin-top: 40px;
+}
+.plantBox img{
+    width: 100%;
+    border-radius: 8px;
+}
+.plantBox h4{
+    color: #111111;
+    font-size: .7rem;
+    margin-top: 10px;
+    font-weight: 400;
+}
+.plantBox h3{
+    color: #111111;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.plantBox button{
+    width: 100%;
+    padding: 10px;
+    background-color: #E95A08;
+    border: none;
+    border-radius: 3px;
+    color: #fefefe;
+    transition: .8s;
+}
+.plantBox button:hover{
+    background-color: #e95a08d6;
+}
 
 
 
