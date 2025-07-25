@@ -224,6 +224,77 @@ footer{
     color: #fefefe;
     border: none;
 }
+.dealsSection{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px;
+}
+.dealsSection h2{
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+.dealsSection p{
+    margin-bottom: 40px;
+}
+.containerBox{
+    background-image: url(B12A02-Responsive-Flowers/assets/deal-bloom.png);
+    background-repeat: no-repeat;
+    height: 30vh;
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+.containerBox h4{
+    color: #fefefe;
+}
+.containerBox a{
+    color: #fefefe;
+}
+.containerBox1 h4{
+    color: #fefefe;
+}
+.containerBox1 a{
+    color: #fefefe;
+}
+.containerBox1{
+    background-image: url(B12A02-Responsive-Flowers/assets/deal-ana.png);
+    background-repeat: no-repeat;
+    height: 30vh;
+    width: 370px;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+.big-container{
+    background-image: url(B12A02-Responsive-Flowers/assets/deal-zabo.png);
+    background-repeat: no-repeat;
+    height: 60vh;
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+.big-container h3{
+    color: #fefefe;
+}
+.big-container a{
+    color: #fefefe;
+}
+.container-deals{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
 
 
 
@@ -233,6 +304,31 @@ footer{
 @media screen and (max-width:549px){
     header {
 	padding: 30px;
+}
+.dealsSection {
+	width: 100%;
+    padding: 10px;
+}
+.container-deals {
+	flex-direction: column;
+}
+.containerBox {
+	width: 330px;
+    margin-left: 10px;
+    margin-top: 0%;
+    margin-bottom: 20px;
+    height: 20vh;
+}
+.big-container {
+height: 25vh;
+width: 340px;
+}
+
+.containerBox1 {
+	width: 330px;
+    margin-left: 10px;
+    margin-top: 0%;
+    height: 20vh;
 }
 .plantSection {
 	width: 100%;
